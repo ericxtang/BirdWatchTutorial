@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BirdsMasterViewController : UITableViewController
+@class BirdSightingDataController;
 
+@interface BirdsMasterViewController : UITableViewController
+@property (strong, nonatomic) BirdSightingDataController *dataController;
 @end
