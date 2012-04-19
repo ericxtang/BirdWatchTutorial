@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC72FC90153FF6E6005B86D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC72FC8F153FF6E6005B86D9 /* CoreLocation.framework */; };
+		AC72FCA5153FF6FD005B86D9 /* MKAnnotationView+MTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72FC93153FF6FD005B86D9 /* MKAnnotationView+MTLocation.m */; };
+		AC72FCA6153FF6FD005B86D9 /* MKMapView+MTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72FC95153FF6FD005B86D9 /* MKMapView+MTLocation.m */; };
+		AC72FCA7153FF6FD005B86D9 /* MTLocateMeBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72FC97153FF6FD005B86D9 /* MTLocateMeBarButtonItem.m */; };
+		AC72FCA8153FF6FD005B86D9 /* MTLocateMeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72FC99153FF6FD005B86D9 /* MTLocateMeButton.m */; };
+		AC72FCA9153FF6FD005B86D9 /* MTLocationFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72FC9D153FF6FD005B86D9 /* MTLocationFunctions.m */; };
+		AC72FCAA153FF6FD005B86D9 /* MTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72FC9F153FF6FD005B86D9 /* MTLocationManager.m */; };
+		AC72FCAB153FF6FD005B86D9 /* MTTouchesMovedGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72FCA1153FF6FD005B86D9 /* MTTouchesMovedGestureRecognizer.m */; };
+		AC72FCAC153FF6FD005B86D9 /* UIBarButtonItem+MTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC72FCA4153FF6FD005B86D9 /* UIBarButtonItem+MTLocation.m */; };
+		AC72FCAE153FF71D005B86D9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC72FCAD153FF71D005B86D9 /* MapKit.framework */; };
+		AC72FCB4153FFF6F005B86D9 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC72FCB3153FFF6F005B86D9 /* AddressBookUI.framework */; };
+		AC72FCB915400BF1005B86D9 /* MTLocation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC72FCB615400815005B86D9 /* MTLocation.bundle */; };
 		AC93A519152A5A6200CBE2EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC93A518152A5A6200CBE2EA /* UIKit.framework */; };
 		AC93A51B152A5A6200CBE2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC93A51A152A5A6200CBE2EA /* Foundation.framework */; };
 		AC93A51D152A5A6200CBE2EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC93A51C152A5A6200CBE2EA /* CoreGraphics.framework */; };
@@ -22,6 +34,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC72FC8F153FF6E6005B86D9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AC72FC92153FF6FD005B86D9 /* MKAnnotationView+MTLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+MTLocation.h"; sourceTree = "<group>"; };
+		AC72FC93153FF6FD005B86D9 /* MKAnnotationView+MTLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+MTLocation.m"; sourceTree = "<group>"; };
+		AC72FC94153FF6FD005B86D9 /* MKMapView+MTLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+MTLocation.h"; sourceTree = "<group>"; };
+		AC72FC95153FF6FD005B86D9 /* MKMapView+MTLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+MTLocation.m"; sourceTree = "<group>"; };
+		AC72FC96153FF6FD005B86D9 /* MTLocateMeBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocateMeBarButtonItem.h; sourceTree = "<group>"; };
+		AC72FC97153FF6FD005B86D9 /* MTLocateMeBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocateMeBarButtonItem.m; sourceTree = "<group>"; };
+		AC72FC98153FF6FD005B86D9 /* MTLocateMeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocateMeButton.h; sourceTree = "<group>"; };
+		AC72FC99153FF6FD005B86D9 /* MTLocateMeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocateMeButton.m; sourceTree = "<group>"; };
+		AC72FC9A153FF6FD005B86D9 /* MTLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocation.h; sourceTree = "<group>"; };
+		AC72FC9B153FF6FD005B86D9 /* MTLocationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocationDefines.h; sourceTree = "<group>"; };
+		AC72FC9C153FF6FD005B86D9 /* MTLocationFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocationFunctions.h; sourceTree = "<group>"; };
+		AC72FC9D153FF6FD005B86D9 /* MTLocationFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocationFunctions.m; sourceTree = "<group>"; };
+		AC72FC9E153FF6FD005B86D9 /* MTLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocationManager.h; sourceTree = "<group>"; };
+		AC72FC9F153FF6FD005B86D9 /* MTLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocationManager.m; sourceTree = "<group>"; };
+		AC72FCA0153FF6FD005B86D9 /* MTTouchesMovedGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTouchesMovedGestureRecognizer.h; sourceTree = "<group>"; };
+		AC72FCA1153FF6FD005B86D9 /* MTTouchesMovedGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTouchesMovedGestureRecognizer.m; sourceTree = "<group>"; };
+		AC72FCA2153FF6FD005B86D9 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		AC72FCA3153FF6FD005B86D9 /* UIBarButtonItem+MTLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MTLocation.h"; sourceTree = "<group>"; };
+		AC72FCA4153FF6FD005B86D9 /* UIBarButtonItem+MTLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MTLocation.m"; sourceTree = "<group>"; };
+		AC72FCAD153FF71D005B86D9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AC72FCB2153FFA36005B86D9 /* Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		AC72FCB3153FFF6F005B86D9 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		AC72FCB615400815005B86D9 /* MTLocation.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MTLocation.bundle; path = BirdWatchTutorial/Resources/MTLocation.bundle; sourceTree = SOURCE_ROOT; };
 		AC93A514152A5A6200CBE2EA /* BirdWatchTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdWatchTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC93A518152A5A6200CBE2EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AC93A51A152A5A6200CBE2EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC72FCB4153FFF6F005B86D9 /* AddressBookUI.framework in Frameworks */,
+				AC72FCAE153FF71D005B86D9 /* MapKit.framework in Frameworks */,
+				AC72FC90153FF6E6005B86D9 /* CoreLocation.framework in Frameworks */,
 				AC93A519152A5A6200CBE2EA /* UIKit.framework in Frameworks */,
 				AC93A51B152A5A6200CBE2EA /* Foundation.framework in Frameworks */,
 				AC93A51D152A5A6200CBE2EA /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +98,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC72FC91153FF6FD005B86D9 /* MTLocation */ = {
+			isa = PBXGroup;
+			children = (
+				AC72FC92153FF6FD005B86D9 /* MKAnnotationView+MTLocation.h */,
+				AC72FC93153FF6FD005B86D9 /* MKAnnotationView+MTLocation.m */,
+				AC72FC94153FF6FD005B86D9 /* MKMapView+MTLocation.h */,
+				AC72FC95153FF6FD005B86D9 /* MKMapView+MTLocation.m */,
+				AC72FC96153FF6FD005B86D9 /* MTLocateMeBarButtonItem.h */,
+				AC72FC97153FF6FD005B86D9 /* MTLocateMeBarButtonItem.m */,
+				AC72FC98153FF6FD005B86D9 /* MTLocateMeButton.h */,
+				AC72FC99153FF6FD005B86D9 /* MTLocateMeButton.m */,
+				AC72FC9A153FF6FD005B86D9 /* MTLocation.h */,
+				AC72FC9B153FF6FD005B86D9 /* MTLocationDefines.h */,
+				AC72FC9C153FF6FD005B86D9 /* MTLocationFunctions.h */,
+				AC72FC9D153FF6FD005B86D9 /* MTLocationFunctions.m */,
+				AC72FC9E153FF6FD005B86D9 /* MTLocationManager.h */,
+				AC72FC9F153FF6FD005B86D9 /* MTLocationManager.m */,
+				AC72FCA0153FF6FD005B86D9 /* MTTouchesMovedGestureRecognizer.h */,
+				AC72FCA1153FF6FD005B86D9 /* MTTouchesMovedGestureRecognizer.m */,
+				AC72FCA2153FF6FD005B86D9 /* Prefix.pch */,
+				AC72FCA3153FF6FD005B86D9 /* UIBarButtonItem+MTLocation.h */,
+				AC72FCA4153FF6FD005B86D9 /* UIBarButtonItem+MTLocation.m */,
+			);
+			name = MTLocation;
+			path = ../../MTLocation/MTLocation;
+			sourceTree = "<group>";
+		};
+		AC72FCB515400815005B86D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC72FCB615400815005B86D9 /* MTLocation.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		AC93A509152A5A6200CBE2EA = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +153,9 @@
 		AC93A517152A5A6200CBE2EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC72FCB3153FFF6F005B86D9 /* AddressBookUI.framework */,
+				AC72FCAD153FF71D005B86D9 /* MapKit.framework */,
+				AC72FC8F153FF6E6005B86D9 /* CoreLocation.framework */,
 				AC93A518152A5A6200CBE2EA /* UIKit.framework */,
 				AC93A51A152A5A6200CBE2EA /* Foundation.framework */,
 				AC93A51C152A5A6200CBE2EA /* CoreGraphics.framework */,
@@ -89,11 +166,14 @@
 		AC93A51E152A5A6200CBE2EA /* BirdWatchTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				AC72FCB515400815005B86D9 /* Resources */,
+				AC72FC91153FF6FD005B86D9 /* MTLocation */,
 				AC93A527152A5A6200CBE2EA /* BirdsAppDelegate.h */,
 				AC93A528152A5A6200CBE2EA /* BirdsAppDelegate.m */,
 				AC93A52A152A5A6200CBE2EA /* MainStoryboard.storyboard */,
 				AC93A53E152BE15D00CBE2EA /* AddSightingViewController.h */,
 				AC93A53F152BE15D00CBE2EA /* AddSightingViewController.m */,
+				AC72FCB2153FFA36005B86D9 /* Location.h */,
 				AC93A538152A5D3800CBE2EA /* BirdSighting.h */,
 				AC93A539152A5D3800CBE2EA /* BirdSighting.m */,
 				AC93A53B152A60C000CBE2EA /* BirdSightingDataController.h */,
@@ -171,6 +251,7 @@
 			files = (
 				AC93A523152A5A6200CBE2EA /* InfoPlist.strings in Resources */,
 				AC93A52C152A5A6200CBE2EA /* MainStoryboard.storyboard in Resources */,
+				AC72FCB915400BF1005B86D9 /* MTLocation.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +269,14 @@
 				AC93A53A152A5D3800CBE2EA /* BirdSighting.m in Sources */,
 				AC93A53D152A60C000CBE2EA /* BirdSightingDataController.m in Sources */,
 				AC93A540152BE15D00CBE2EA /* AddSightingViewController.m in Sources */,
+				AC72FCA5153FF6FD005B86D9 /* MKAnnotationView+MTLocation.m in Sources */,
+				AC72FCA6153FF6FD005B86D9 /* MKMapView+MTLocation.m in Sources */,
+				AC72FCA7153FF6FD005B86D9 /* MTLocateMeBarButtonItem.m in Sources */,
+				AC72FCA8153FF6FD005B86D9 /* MTLocateMeButton.m in Sources */,
+				AC72FCA9153FF6FD005B86D9 /* MTLocationFunctions.m in Sources */,
+				AC72FCAA153FF6FD005B86D9 /* MTLocationManager.m in Sources */,
+				AC72FCAB153FF6FD005B86D9 /* MTTouchesMovedGestureRecognizer.m in Sources */,
+				AC72FCAC153FF6FD005B86D9 /* UIBarButtonItem+MTLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
